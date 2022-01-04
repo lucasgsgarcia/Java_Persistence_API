@@ -27,7 +27,6 @@ Mapeamento de Relacionamentos
 • Fonte, executáveis e readme explicando exatamente como executar o projeto (como compilar,configurar o bd, etc. Preferência por projeto configurado no Eclipse e Maven.  </br>
 • Interface para acesso ao sistema: Console, Web, Mobile ou GUI.
 • Itens da tabela </br>
-* Será feita uma pequena arguição sobre o projeto. Todos devem ter participado igualmente nas atividades.
 
  </br>
 Consultas
