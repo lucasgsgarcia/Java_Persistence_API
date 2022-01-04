@@ -1,63 +1,35 @@
 # Java_Persistence_API
-##Atividade desenvolvida academicamente sobre Java Persistence API.
+## Atividade desenvolvida academicamente sobre Java Persistence API.
 
 
 Atividade prática - Java Persistence API
 O objetivo dessa atividade é permitir a aplicação os conceitos sobre JPA, em umcenário prático. Ao final da atividade os seguintes tópicos terão sido trabalhados: </br>
-• Mapeamento Objeto Relacional;
-• Mapeamento das Entidades;
-• Mapeamento dos relacionamentos;
-• Contexto de Persistência;
-• Gerenciador de Entidades e ciclo de vidas de entidades;
-• Linguagem de Consulta em JPA.
-O que implementar
-Considere o Banco de Dados Universidade (os arquivos DDL e DML estão no moodle). Você implementará
-um cenário de persistencia completo, desde o mapeamento de entidades/tabelas até interfaces para
-manipulação de dados.
-Prof. Dr. Eduardo Pena TSI 34A
-Avaliação
-Pontos Item Descrição
-2.0 Anotações de entidades
+• Mapeamento Objeto Relacional; </br>
+• Mapeamento das Entidades; </br>
+• Mapeamento dos relacionamentos; </br>
+• Contexto de Persistência; </br>
+• Gerenciador de Entidades e ciclo de vidas de entidades; </br>
+• Linguagem de Consulta em JPA. </br>
+
 Todas as tabelas devem ser mapeadas integralmente
 para a aplicação. Na aplicação, utilize os mesmo
 nomes de atributos vistos no DDL. Não esqueça de
 mapear as chaves primárias compostas.
-2.0 Mapeamento de
-Relacionamentos • Todos relacionamentos devem ser mapeados no
-modo bi-direcional.
-• Utilizar as tabelas de junção do MR original
-(veja @JoinColumn).
-• Utilize coleções.
-• Configure os cascateamentos (Cascades).
-2.0 Entity Manager
-• Manutenção e gerenciamento do Contexto de
-Persistência.
-• Estabelecer o CRUD de todas as entidades.
-Importante: As depêndencias entre objetos
-devem ser configuradas.
-• Manter a sincronia do CRUD com o banco de
-dados.
-3.0 JPQL Implementar as consultas da página a diante da seguinte
-forma:
-• Escolha 2 e utilize dinamic query.
-• Escolha 5 e utilize named query.
-• Escolha 3 e utilize expressões de construtor
-(SELECT NEW).
-• Implemente as demais da maneira que achar
-mais adequado.
-Entregáveis e avaliação
-Abaixo a pontuação (máxima) de cada um dos itens a serem entregues.
-Página 4 de 5
-Prof. Dr. Eduardo Pena TSI 34A
-• Fonte, executáveis e readme explicando exatamente como executar o projeto (como compilar,
-configurar o bd, etc. Preferência por projeto configurado no Eclipse e Maven. (0.25
-pontos)
-• Interface para acesso ao sistema (0.75 pontos) : Console, Web, Mobile ou GUI.
-• Itens da tabela (9 pontos)
+
+Mapeamento de Relacionamentos
+• Todos relacionamentos devem ser mapeados no modo bi-direcional.  </br>
+• Utilizar as tabelas de junção do MR original.  </br>
+• Utilize coleções. </br>
+• Configure os cascateamentos (Cascades). </br>
+• Manutenção e gerenciamento do Contexto dePersistência. </br>
+• Estabelecer o CRUD de todas as entidades. Importante: As depêndencias entre objetos devem ser configuradas. </br>
+• Manter a sincronia do CRUD com o banco de dados. </br>
+• Fonte, executáveis e readme explicando exatamente como executar o projeto (como compilar,configurar o bd, etc. Preferência por projeto configurado no Eclipse e Maven.  </br>
+• Interface para acesso ao sistema: Console, Web, Mobile ou GUI.
+• Itens da tabela </br>
 * Será feita uma pequena arguição sobre o projeto. Todos devem ter participado igualmente nas atividades.
-Dessa forma, todos apresentam e demonstram o conhecimento adquirido ao longo da atividade.
-Equipe
-Até 3 alunos;
+
+ </br>
 Consultas
 1. Encontre todos os pedidos relacionados a um produto que tenha preço maior que $_____.
 2. Mostre-me todos os dados na tabela escritórios (offices).
@@ -77,4 +49,3 @@ disponível de produto ACI-41004.
 todas os pedidos, mostrando valores e descrições do produto.
 15. Liste os pedidos acima de $ 25.000, incluindo o nome do vendedor que tomou o pedido e o nome do o
 cliente que fez o pedido.
-Página
